@@ -63,64 +63,117 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/xloud_param_arm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/xloud_param_arm.bin \
     vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/xloud_param_qdsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/xloud_param_qdsp.bin \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_cam_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_cam_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_cap_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_cap_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_color_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_color_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_debug_display_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_debug_display_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_debug_display_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_debug_display_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_exposure_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_exposure_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_exposure_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_exposure_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_face_detector_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_face_detector_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_face_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_face_detector_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_flicker_detector_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_flicker_detector_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_flicker_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_flicker_detector_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_focus_stats_conv_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_focus_stats_conv_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_focus_stats_conv_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_focus_stats_conv_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_hal_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_hal_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_hal_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_hal_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_hdr_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_hdr_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_hdr_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_hdr_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_idt_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_idt_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_idt_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_idt_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_image_conv_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_image_conv_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_image_conv_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_image_conv_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_iq_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_iq_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_iq_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_iq_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_jpeg_enc_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_jpeg_enc_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_jpeg_enc_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_jpeg_enc_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_lens_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_lens_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_lens_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_lens_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_motion_estimation_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_motion_estimation_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_motion_estimation_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_motion_estimation_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_multiframe_nr_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_multiframe_nr_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_multiframe_nr_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_multiframe_nr_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_object_tracker_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_object_tracker_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_object_tracker_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_object_tracker_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_scene_detector_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_scene_detector_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_scene_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_scene_detector_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_snapshot_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_snapshot_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_splitter_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_splitter_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_splitter_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_streaming_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_streaming_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/hw/audio.primary.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8974.so \
     vendor/sony/shinano-common/proprietary/lib/hw/camera.vendor.qcom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.qcom.so \
+    vendor/sony/shinano-common/proprietary/lib/hw/camera.vendor.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.qcom.so \
     vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_asb_tee.so \
+    vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_asb_tee.so \
     vendor/sony/shinano-common/proprietary/lib/lib_get_secure_mode.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_get_secure_mode.so \
+    vendor/sony/shinano-common/proprietary/lib/lib_get_secure_mode.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_get_secure_mode.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_chokoball.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_chokoball.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_chokoball.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_chokoball.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_client.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_client.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_common.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_common.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_face.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_face.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_face.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_imageconv.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_imageconv.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_imageconv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_imageconv.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_imgproc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_imgproc.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_imgproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_imgproc.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_jpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_jpeg.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_jpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_jpeg.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_pal.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_pal.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_parammgr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_parammgr.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_parammgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_parammgr.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_service.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_service.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_system.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_system.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcald_client.so \
+    vendor/sony/shinano-common/proprietary/lib/libcald_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcald_client.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcald_pal.so \
+    vendor/sony/shinano-common/proprietary/lib/libcald_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcald_pal.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_server.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcald_server.so \
+    vendor/sony/shinano-common/proprietary/lib/libcald_server.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcald_server.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcald_util.so \
+    vendor/sony/shinano-common/proprietary/lib/libcald_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcald_util.so \
     vendor/sony/shinano-common/proprietary/lib/libcamera_clientsemc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_clientsemc.so \
+    vendor/sony/shinano-common/proprietary/lib/libcamera_clientsemc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_clientsemc.so \
     vendor/sony/shinano-common/proprietary/lib/libcameralight.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameralight.so \
+    vendor/sony/shinano-common/proprietary/lib/libcameralight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameralight.so \
     vendor/sony/shinano-common/proprietary/lib/libcammw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcammw.so \
+    vendor/sony/shinano-common/proprietary/lib/libcammw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcammw.so \
     vendor/sony/shinano-common/proprietary/lib/libcredential-manager-service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcredential-manager-service.so \
+    vendor/sony/shinano-common/proprietary/lib/libcredential-manager-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcredential-manager-service.so \
     vendor/sony/shinano-common/proprietary/lib/libexcal_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexcal_core.so \
+    vendor/sony/shinano-common/proprietary/lib/libexcal_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexcal_core.so \
     vendor/sony/shinano-common/proprietary/lib/libexcal_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexcal_system.so \
+    vendor/sony/shinano-common/proprietary/lib/libexcal_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexcal_system.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libidd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidd.so \
     vendor/sony/shinano-common/proprietary/lib/libkeyctrl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libkeyctrl.so \
+    vendor/sony/shinano-common/proprietary/lib/libkeyctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeyctrl.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmiscta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiscta.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/sony/shinano-common/proprietary/lib/libprotobuf-c.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-c.so \
+    vendor/sony/shinano-common/proprietary/lib/libprotobuf-c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-c.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/sony/shinano-common/proprietary/lib/libsomc_chokoballpal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomc_chokoballpal.so \
+    vendor/sony/shinano-common/proprietary/lib/libsomc_chokoballpal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_chokoballpal.so \
     vendor/sony/shinano-common/proprietary/lib/libsony_chokoball.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsony_chokoball.so \
+    vendor/sony/shinano-common/proprietary/lib/libsony_chokoball.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsony_chokoball.so \
     vendor/sony/shinano-common/proprietary/lib/libsony_chokoballrsc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsony_chokoballrsc.so \
+    vendor/sony/shinano-common/proprietary/lib/libsony_chokoballrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsony_chokoballrsc.so \
     vendor/sony/shinano-common/proprietary/lib/libsony_face.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsony_face.so \
+    vendor/sony/shinano-common/proprietary/lib/libsony_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsony_face.so \
+    vendor/sony/shinano-common/proprietary/vendor/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libsonypostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsonypostprocbundle.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libsonysweffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsonysweffect.so \
     vendor/sony/shinano-common/proprietary/vendor/CredentialManagerData:$(TARGET_COPY_OUT_VENDOR)/CredentialManagerData \
